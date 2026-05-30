@@ -1,0 +1,12 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local-only source assets
+source(original)/
+
+# Temporary files
+*.tmp
+*.log

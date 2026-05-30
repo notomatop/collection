@@ -303,7 +303,7 @@ button {
 .device-screen,
 .side-screen,
 .story-screen {
-  background-image: url("assets/project-previews.png");
+  background-image: url("assets/project-previews.webp");
   background-repeat: no-repeat;
   background-size: 310% auto;
   background-position: var(--shot-position, 2%) center;
