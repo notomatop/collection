@@ -1,2 +1,13 @@
-# collection
-web-page gallery A collection of designs
+# Collection
+
+A static portfolio webpage inspired by Apple's product presentation style.
+
+The page presents design work through a polished landing experience with animated product-style previews, slide pagination, responsive layout, and smooth section transitions. It is built with plain HTML, CSS, and JavaScript, so it can be opened directly in a browser or hosted as a simple static site.
+
+## Contents
+
+- Apple-inspired hero section
+- Animated project showcase
+- Pagination controls for featured work
+- Responsive desktop and mobile layouts
+- Supporting sections for process, background, and contact
