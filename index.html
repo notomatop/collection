@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Lin ZY 的苹果官网式作品集页面，以产品叙事、动画展示和分页切换呈现精选设计项目。"
+    />
+    <title>Lin ZY | 产品式作品展示</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#works">跳到作品展示</a>
+
+    <header class="global-nav" data-header>
+      <a class="brand" href="#top" aria-label="Lin ZY 首页">Lin ZY</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span class="sr-only">打开导航</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="主导航">
+        <a href="#works">作品</a>
+        <a href="#method">方法</a>
+        <a href="#about">关于</a>
+        <a href="#contact">联系</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy" data-reveal>
+          <h1 id="hero-title">
+            <span class="title-line">让作品像产品一样</span>
+            <span class="title-line">被看见</span>
+            <span class="mobile-title-line">让作品像产品</span>
+            <span class="mobile-title-line">一样被看见</span>
+          </h1>
+          <p>
+            以产品思维重塑作品集叙事，展示设计、原型与跨学科实践。
+          </p>
+          <div class="hero-actions" aria-label="主要操作">
+            <a class="button button-primary" href="#works">观看展示</a>
+            <a class="button button-ghost" href="#contact">联系合作</a>
+          </div>
+        </div>
+
+        <section class="showcase" data-showcase data-reveal aria-label="动画产品展示">
+          <div class="showcase-meta" aria-live="polite">
+            <span data-slide-count>01 / 03</span>
+            <strong data-slide-title>碳迹 · 碳管理平台</strong>
+          </div>
+
+          <div class="product-stage" data-product-stage>
+            <figure class="side-device side-device-left" aria-hidden="true">
+              <div class="side-screen" data-side-left></div>
+            </figure>
+            <figure class="hero-device" aria-label="当前作品产品化展示">
+              <div class="device-lid">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="device-screen" data-device-screen></div>
+              <figcaption>
+                <span data-slide-kicker>从数据进入决策</span>
+                <strong data-slide-line>企业碳排数据的清晰可视化路径。</strong>
+              </figcaption>
+            </figure>
+            <figure class="side-device side-device-right" aria-hidden="true">
+              <div class="side-screen" data-side-right></div>
+            </figure>
+          </div>
+
+          <div class="pagination" aria-label="作品分页">
+            <button class="icon-button" type="button" data-prev aria-label="上一页">
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M15 5 8 12l7 7" />
+              </svg>
+            </button>
+            <div class="page-tabs" role="tablist" aria-label="选择展示页">
+              <button type="button" role="tab" aria-selected="true" data-page="0">01</button>
+              <button type="button" role="tab" aria-selected="false" data-page="1">02</button>
+              <button type="button" role="tab" aria-selected="false" data-page="2">03</button>
+            </div>
+            <button class="icon-button" type="button" data-next aria-label="下一页">
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="m9 5 7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+        </section>
+      </section>
+
+      <section class="works section-shell" id="works" aria-labelledby="works-title">
+        <div class="section-intro" data-reveal>
+          <p class="section-number">01</p>
+          <h2 id="works-title">三页作品，像三款产品发布。</h2>
+          <p>
+            每一页只保留一个焦点：问题、系统和结果。翻页时，视觉资产与叙事同步更新。
+          </p>
+        </div>
+
+        <div class="story-grid" data-reveal>
+          <div class="story-copy">
+            <p class="story-index" data-story-index>Page 01</p>
+            <h3 data-story-title>碳迹 · 碳管理平台</h3>
+            <p data-story-body>
+              面向企业的碳排管理平台，将数据录入、趋势分析、异常预警和行动建议收束到一条清晰路径。
+            </p>
+            <dl class="story-metrics">
+              <div>
+                <dt data-story-metric>4</dt>
+                <dd data-story-label>角色协作路径</dd>
+              </div>
+              <div>
+                <dt data-story-time>12 周</dt>
+                <dd>从研究到高保真原型</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="story-visual" aria-hidden="true">
+            <div class="story-device">
+              <div class="story-screen" data-story-screen></div>
+            </div>
+            <img src="assets/hero-media.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="method" id="method" aria-labelledby="method-title">
+        <div class="section-shell method-inner">
+          <div class="section-intro light" data-reveal>
+            <p class="section-number">02</p>
+            <h2 id="method-title">从作品陈列，到产品体验。</h2>
+            <p>
+              用发布页的节奏组织信息，把研究、交互、视觉与实现能力连成一个可感知的系统。
+            </p>
+          </div>
+
+          <div class="method-track" data-reveal>
+            <article>
+              <span>Research</span>
+              <h3>先定义值得被看见的问题。</h3>
+              <p>访谈、竞品、业务目标与约束被压缩成可执行的设计命题。</p>
+            </article>
+            <article>
+              <span>Prototype</span>
+              <h3>让核心体验先动起来。</h3>
+              <p>用可交互原型验证路径、状态和反馈，而不是只停在静态画面。</p>
+            </article>
+            <article>
+              <span>System</span>
+              <h3>把视觉语言做成系统。</h3>
+              <p>色彩、排版、组件与动效保持统一，让不同项目也能被清晰比较。</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section-shell" id="about" aria-labelledby="about-title">
+        <div class="about-media" data-reveal>
+          <img src="assets/portrait-lin.png" alt="林知远的工作室肖像" />
+        </div>
+        <div class="about-copy" data-reveal>
+          <p class="section-number">03</p>
+          <h2 id="about-title">设计、技术和表达，合在一处。</h2>
+          <p>
+            我叫林知远，关注产品设计、创意技术与跨学科表达。这个版本把作品集当作一个可被浏览、切换和体验的产品来呈现。
+          </p>
+          <div class="about-stats" aria-label="经验数据">
+            <span><strong>8+</strong> 年设计经验</span>
+            <span><strong>20+</strong> 完成项目</span>
+            <span><strong>0-1</strong> 产品原型</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="section-shell contact-inner">
+        <div>
+          <h2 id="contact-title">一起把下一个作品做成发布会。</h2>
+          <p>欢迎联系我讨论产品设计、作品集叙事、交互原型或前端落地。</p>
+        </div>
+        <address>
+          <a href="mailto:hello@linzy.design">hello@linzy.design</a>
+          <a href="tel:+8613800138000">+86 138 0013 8000</a>
+        </address>
+      </div>
+      <p class="copyright">© 2026 Lin ZY. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
